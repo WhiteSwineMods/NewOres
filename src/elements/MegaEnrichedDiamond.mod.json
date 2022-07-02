@@ -8,7 +8,7 @@
     "name": "MegaEnrichedDiamond",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:NewOres"
     },
     "stackSize": 64,
     "enchantability": 0,

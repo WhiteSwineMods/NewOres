@@ -8,7 +8,7 @@
     "name": "EncirchedDiamond Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:NewOres"
     },
     "toolType": "Spade",
     "harvestLevel": 10,

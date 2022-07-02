@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.newores.itemgroup.NewOresItemGroup;
 import net.mcreator.newores.NewOresModElements;
 
 @NewOresModElements.ModElement.Tag
@@ -46,7 +46,7 @@ public class MegaEnrichedDiamondSwordItem extends NewOresModElements.ModElement 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(MegaEnrichedDiamondItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3f, new Item.Properties().group(NewOresItemGroup.tab)) {
 		}.setRegistryName("mega_enriched_diamond_sword"));
 	}
 }

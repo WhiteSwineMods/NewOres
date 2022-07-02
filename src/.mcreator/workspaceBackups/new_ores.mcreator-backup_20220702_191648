@@ -432,15 +432,6 @@
       "ids": {},
       "registry_name": "mega_enriched_diamonds",
       "path": "~/MegaEnrichedDiamonds"
-    },
-    {
-      "name": "NewOres",
-      "type": "tab",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "new_ores"
     }
   ],
   "variable_elements": [],
@@ -458,7 +449,6 @@
       "item.new_ores.encirched_diamond_sword": "EncirchedDiamond Sword",
       "item.new_ores.encirched_diamond_armor_chestplate": "EncirchedDiamond Chestplate",
       "item.new_ores.mega_enriched_diamond_pickaxe": "MegaEnrichedDiamond Pickaxe",
-      "itemGroup.tabnew_ores": "New Ores",
       "item.new_ores.mega_enriched_diamond": "MegaEnrichedDiamond",
       "block.new_ores.encirched_diamond_block": "Block of EncirchedDiamond",
       "item.new_ores.encirched_diamond_pickaxe": "EncirchedDiamond Pickaxe",

@@ -8,7 +8,7 @@
     "name": "EncirchedDiamond Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:NewOres"
     },
     "toolType": "Axe",
     "harvestLevel": 10,

@@ -8,7 +8,7 @@
     "name": "MegaEnrichedDiamond Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:NewOres"
     },
     "toolType": "Spade",
     "harvestLevel": 12,

@@ -8,7 +8,7 @@
     "name": "MegaEnrichedDiamond Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:NewOres"
     },
     "toolType": "Hoe",
     "harvestLevel": 12,

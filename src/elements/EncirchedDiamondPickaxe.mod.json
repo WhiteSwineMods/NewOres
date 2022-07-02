@@ -8,7 +8,7 @@
     "name": "EncirchedDiamond Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:NewOres"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 10,
