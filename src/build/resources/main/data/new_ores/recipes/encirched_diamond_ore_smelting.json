@@ -1,0 +1,12 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:smelting",
+  "experience": 3.5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "new_ores:encirched_diamond_ore"
+  },
+  "result": {
+    "item": "new_ores:encirched_diamond"
+  }
+}

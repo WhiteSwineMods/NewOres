@@ -1,14 +1,480 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "EncirchedDiamond",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_ore",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_block",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_ore_block_recipe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_block_ore_recipe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_ore_smelting",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_pickaxe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_axe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_sword",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_shovel",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_hoe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_pickaxe_recipe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_axe_recipe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_sword_recipe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_shovel_recipe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_hoe_recipe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_armor_helmet_recipe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_armor_body_recipe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_armor_leggings_recipe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "EncirchedDiamondArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encirched_diamond_armor_boots_recipe",
+      "path": "~/EnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamond",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondBlock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_block",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_ore_block_recipe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_block_ore_recipe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondOreSmelting",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_ore_smelting",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondPickaxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_pickaxe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondAxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_axe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondSword",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_sword",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondShovel",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_shovel",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondHoe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_hoe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_pickaxe_recipe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondAxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_axe_recipe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondSwordRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_sword_recipe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondShovelRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_shovel_recipe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondHoeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_hoe_recipe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondArmor",
+      "type": "armor",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_armor_helmet_recipe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_armor_body_recipe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_armor_leggings_recipe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamondArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamond_armor_boots_recipe",
+      "path": "~/MegaEnrichedDiamonds"
+    },
+    {
+      "name": "MegaEnrichedDiamonds",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mega_enriched_diamonds",
+      "path": "~/MegaEnrichedDiamonds"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.new_ores.mega_enriched_diamond_hoe": "MegaEnrichedDiamond Hoe",
+      "item.new_ores.encirched_diamond_axe": "EncirchedDiamond Axe",
+      "item.new_ores.encirched_diamond_armor_boots": "EncirchedDiamond Boots",
+      "item.new_ores.encirched_diamond": "EncirchedDiamond",
+      "item.new_ores.mega_enriched_diamond_shovel": "MegaEnrichedDiamond Shovel",
+      "item.new_ores.mega_enriched_diamond_armor_chestplate": "MegaEnrichedDiamond Chestplate",
+      "item.new_ores.mega_enriched_diamond_axe": "MegaEnrichedDiamond Axe",
+      "item.new_ores.mega_enriched_diamond_armor_helmet": "MegaEnrichedDiamond Helmet",
+      "item.new_ores.encirched_diamond_sword": "EncirchedDiamond Sword",
+      "item.new_ores.encirched_diamond_armor_chestplate": "EncirchedDiamond Chestplate",
+      "item.new_ores.mega_enriched_diamond_pickaxe": "MegaEnrichedDiamond Pickaxe",
+      "item.new_ores.mega_enriched_diamond": "MegaEnrichedDiamond",
+      "block.new_ores.encirched_diamond_block": "Block of EncirchedDiamond",
+      "item.new_ores.encirched_diamond_pickaxe": "EncirchedDiamond Pickaxe",
+      "item.new_ores.encirched_diamond_armor_helmet": "EncirchedDiamond Helmet",
+      "item.new_ores.encirched_diamond_shovel": "EncirchedDiamond Shovel",
+      "item.new_ores.mega_enriched_diamond_armor_leggings": "MegaEnrichedDiamond Leggings",
+      "item.new_ores.encirched_diamond_hoe": "EncirchedDiamond Hoe",
+      "item.new_ores.encirched_diamond_armor_leggings": "EncirchedDiamond Leggings",
+      "block.new_ores.encirched_diamond_ore": "EncirchedDiamond Ore",
+      "item.new_ores.mega_enriched_diamond_sword": "MegaEnrichedDiamond Sword",
+      "item.new_ores.mega_enriched_diamond_armor_boots": "MegaEnrichedDiamond Boots",
+      "block.new_ores.mega_enriched_diamond_block": "Block of MegaEnrichedDiamond"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "EnrichedDiamonds",
+        "children": []
+      },
+      {
+        "name": "MegaEnrichedDiamonds",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "new_ores",

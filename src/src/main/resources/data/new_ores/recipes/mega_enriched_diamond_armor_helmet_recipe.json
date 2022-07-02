@@ -1,0 +1,29 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "new_ores:mega_enriched_diamond"
+    },
+    "1": {
+      "item": "new_ores:mega_enriched_diamond"
+    },
+    "2": {
+      "item": "new_ores:mega_enriched_diamond"
+    },
+    "3": {
+      "item": "new_ores:mega_enriched_diamond"
+    },
+    "5": {
+      "item": "new_ores:mega_enriched_diamond"
+    }
+  },
+  "result": {
+    "item": "new_ores:mega_enriched_diamond_armor_helmet",
+    "count": 1
+  }
+}

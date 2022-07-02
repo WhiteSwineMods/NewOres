@@ -1,0 +1,13 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "new_ores:mega_enriched_diamond_block"
+    }
+  ],
+  "result": {
+    "item": "new_ores:mega_enriched_diamond",
+    "count": 9
+  }
+}

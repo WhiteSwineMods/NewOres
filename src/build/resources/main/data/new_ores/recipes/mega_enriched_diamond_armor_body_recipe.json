@@ -1,0 +1,39 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_ores:mega_enriched_diamond"
+    },
+    "2": {
+      "item": "new_ores:mega_enriched_diamond"
+    },
+    "3": {
+      "item": "new_ores:mega_enriched_diamond"
+    },
+    "4": {
+      "item": "new_ores:mega_enriched_diamond"
+    },
+    "5": {
+      "item": "new_ores:mega_enriched_diamond"
+    },
+    "6": {
+      "item": "new_ores:mega_enriched_diamond"
+    },
+    "7": {
+      "item": "new_ores:mega_enriched_diamond"
+    },
+    "8": {
+      "item": "new_ores:mega_enriched_diamond"
+    }
+  },
+  "result": {
+    "item": "new_ores:mega_enriched_diamond_armor_chestplate",
+    "count": 1
+  }
+}

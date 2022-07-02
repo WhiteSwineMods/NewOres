@@ -1,0 +1,80 @@
+net/mcreator/newores/item/EncirchedDiamondAxeItem.java
+ net.mcreator.newores.item.EncirchedDiamondAxeItem
+ net.mcreator.newores.item.EncirchedDiamondAxeItem$1
+ net.mcreator.newores.item.EncirchedDiamondAxeItem$2
+net/mcreator/newores/block/EncirchedDiamondOreBlock.java
+ net.mcreator.newores.block.EncirchedDiamondOreBlock
+ net.mcreator.newores.block.EncirchedDiamondOreBlock$1
+ net.mcreator.newores.block.EncirchedDiamondOreBlock$CustomBlock
+ net.mcreator.newores.block.EncirchedDiamondOreBlock$CustomRuleTest
+ net.mcreator.newores.block.EncirchedDiamondOreBlock$FeatureRegisterHandler
+ net.mcreator.newores.block.EncirchedDiamondOreBlock$FeatureRegisterHandler$1
+net/mcreator/newores/item/EncirchedDiamondHoeItem.java
+ net.mcreator.newores.item.EncirchedDiamondHoeItem
+ net.mcreator.newores.item.EncirchedDiamondHoeItem$1
+ net.mcreator.newores.item.EncirchedDiamondHoeItem$2
+net/mcreator/newores/item/EncirchedDiamondItem.java
+ net.mcreator.newores.item.EncirchedDiamondItem
+ net.mcreator.newores.item.EncirchedDiamondItem$ItemCustom
+net/mcreator/newores/NewOresMod.java
+ net.mcreator.newores.NewOresMod
+ net.mcreator.newores.NewOresMod$NewOresModFMLBusEvents
+net/mcreator/newores/item/EncirchedDiamondShovelItem.java
+ net.mcreator.newores.item.EncirchedDiamondShovelItem
+ net.mcreator.newores.item.EncirchedDiamondShovelItem$1
+ net.mcreator.newores.item.EncirchedDiamondShovelItem$2
+net/mcreator/newores/item/EncirchedDiamondArmorItem.java
+ net.mcreator.newores.item.EncirchedDiamondArmorItem
+ net.mcreator.newores.item.EncirchedDiamondArmorItem$1
+ net.mcreator.newores.item.EncirchedDiamondArmorItem$2
+ net.mcreator.newores.item.EncirchedDiamondArmorItem$3
+ net.mcreator.newores.item.EncirchedDiamondArmorItem$4
+ net.mcreator.newores.item.EncirchedDiamondArmorItem$5
+net/mcreator/newores/item/EncirchedDiamondSwordItem.java
+ net.mcreator.newores.item.EncirchedDiamondSwordItem
+ net.mcreator.newores.item.EncirchedDiamondSwordItem$1
+ net.mcreator.newores.item.EncirchedDiamondSwordItem$2
+net/mcreator/newores/block/EncirchedDiamondBlockBlock.java
+ net.mcreator.newores.block.EncirchedDiamondBlockBlock
+ net.mcreator.newores.block.EncirchedDiamondBlockBlock$CustomBlock
+net/mcreator/newores/NewOresModElements.java
+ net.mcreator.newores.NewOresModElements
+ net.mcreator.newores.NewOresModElements$ModElement
+ net.mcreator.newores.NewOresModElements$ModElement$Tag
+net/mcreator/newores/item/EncirchedDiamondPickaxeItem.java
+ net.mcreator.newores.item.EncirchedDiamondPickaxeItem
+ net.mcreator.newores.item.EncirchedDiamondPickaxeItem$1
+ net.mcreator.newores.item.EncirchedDiamondPickaxeItem$2
+net/mcreator/newores/item/MegaEnrichedDiamondHoeItem.java
+ net.mcreator.newores.item.MegaEnrichedDiamondHoeItem
+ net.mcreator.newores.item.MegaEnrichedDiamondHoeItem$1
+ net.mcreator.newores.item.MegaEnrichedDiamondHoeItem$2
+net/mcreator/newores/item/MegaEnrichedDiamondSwordItem.java
+ net.mcreator.newores.item.MegaEnrichedDiamondSwordItem
+ net.mcreator.newores.item.MegaEnrichedDiamondSwordItem$1
+ net.mcreator.newores.item.MegaEnrichedDiamondSwordItem$2
+net/mcreator/newores/item/MegaEnrichedDiamondItem.java
+ net.mcreator.newores.item.MegaEnrichedDiamondItem
+ net.mcreator.newores.item.MegaEnrichedDiamondItem$ItemCustom
+net/mcreator/newores/item/MegaEnrichedDiamondAxeItem.java
+ net.mcreator.newores.item.MegaEnrichedDiamondAxeItem
+ net.mcreator.newores.item.MegaEnrichedDiamondAxeItem$1
+ net.mcreator.newores.item.MegaEnrichedDiamondAxeItem$2
+net/mcreator/newores/item/MegaEnrichedDiamondPickaxeItem.java
+ net.mcreator.newores.item.MegaEnrichedDiamondPickaxeItem
+ net.mcreator.newores.item.MegaEnrichedDiamondPickaxeItem$1
+ net.mcreator.newores.item.MegaEnrichedDiamondPickaxeItem$2
+net/mcreator/newores/block/MegaEnrichedDiamondBlockBlock.java
+ net.mcreator.newores.block.MegaEnrichedDiamondBlockBlock
+ net.mcreator.newores.block.MegaEnrichedDiamondBlockBlock$CustomBlock
+net/mcreator/newores/item/MegaEnrichedDiamondArmorItem.java
+ net.mcreator.newores.item.MegaEnrichedDiamondArmorItem
+ net.mcreator.newores.item.MegaEnrichedDiamondArmorItem$1
+ net.mcreator.newores.item.MegaEnrichedDiamondArmorItem$2
+ net.mcreator.newores.item.MegaEnrichedDiamondArmorItem$3
+ net.mcreator.newores.item.MegaEnrichedDiamondArmorItem$4
+ net.mcreator.newores.item.MegaEnrichedDiamondArmorItem$5
+net/mcreator/newores/item/MegaEnrichedDiamondShovelItem.java
+ net.mcreator.newores.item.MegaEnrichedDiamondShovelItem
+ net.mcreator.newores.item.MegaEnrichedDiamondShovelItem$1
+ net.mcreator.newores.item.MegaEnrichedDiamondShovelItem$2

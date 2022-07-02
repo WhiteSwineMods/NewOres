@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "megaenricheddiamond_head",
+    "enableBody": true,
+    "textureBody": "megaenricheddiamond_body",
+    "enableLeggings": true,
+    "textureLeggings": "megaenricheddiamond_leggings",
+    "enableBoots": true,
+    "textureBoots": "megaenricheddiamond_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "megaenricheddiamond",
+    "helmetName": "MegaEnrichedDiamond Helmet",
+    "bodyName": "MegaEnrichedDiamond Chestplate",
+    "leggingsName": "MegaEnrichedDiamond Leggings",
+    "bootsName": "MegaEnrichedDiamond Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 90,
+    "damageValueHelmet": 12,
+    "damageValueBody": 30,
+    "damageValueLeggings": 36,
+    "damageValueBoots": 12,
+    "enchantability": 54,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:MegaEnrichedDiamond"
+      }
+    ]
+  }
+}

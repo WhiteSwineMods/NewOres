@@ -1,0 +1,42 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_ores:encirched_diamond"
+    },
+    "1": {
+      "item": "new_ores:encirched_diamond"
+    },
+    "2": {
+      "item": "new_ores:encirched_diamond"
+    },
+    "3": {
+      "item": "new_ores:encirched_diamond"
+    },
+    "4": {
+      "item": "new_ores:encirched_diamond"
+    },
+    "5": {
+      "item": "new_ores:encirched_diamond"
+    },
+    "6": {
+      "item": "new_ores:encirched_diamond"
+    },
+    "7": {
+      "item": "new_ores:encirched_diamond"
+    },
+    "8": {
+      "item": "new_ores:encirched_diamond"
+    }
+  },
+  "result": {
+    "item": "new_ores:encirched_diamond_block",
+    "count": 1
+  }
+}

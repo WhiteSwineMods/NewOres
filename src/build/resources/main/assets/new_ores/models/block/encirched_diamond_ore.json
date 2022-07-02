@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "new_ores:blocks/encircheddiamond_ore",
+    "particle": "new_ores:blocks/encircheddiamond_ore"
+  }
+}
