@@ -397,6 +397,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "new_ores"
+    },
+    {
+      "name": "LolaPainting",
+      "type": "painting",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lola_painting"
     }
   ],
   "variable_elements": [],
