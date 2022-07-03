@@ -28,6 +28,7 @@ public class EncirchedDiamondArmorItem extends NewOresModElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("new_ores:encirched_diamond_armor_boots")
 	public static final Item boots = null;
+
 	public EncirchedDiamondArmorItem(NewOresModElements instance) {
 		super(instance, 17);
 	}
@@ -57,7 +58,7 @@ public class EncirchedDiamondArmorItem extends NewOresModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(EncirchedDiamondItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(EncirchedDiamondItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -101,4 +102,5 @@ public class EncirchedDiamondArmorItem extends NewOresModElements.ModElement {
 			}
 		}.setRegistryName("encirched_diamond_armor_boots"));
 	}
+
 }

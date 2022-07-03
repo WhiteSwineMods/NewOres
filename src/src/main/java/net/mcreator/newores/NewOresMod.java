@@ -46,6 +46,7 @@ public class NewOresMod {
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation("new_ores", "new_ores"),
 			() -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	public NewOresModElements elements;
+
 	public NewOresMod() {
 		elements = new NewOresModElements();
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -86,8 +87,10 @@ public class NewOresMod {
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
 		elements.registerSounds(event);
 	}
+
 	private static class NewOresModFMLBusEvents {
 		private final NewOresMod parent;
+
 		NewOresModFMLBusEvents(NewOresMod parent) {
 			this.parent = parent;
 		}

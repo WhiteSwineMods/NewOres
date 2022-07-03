@@ -1,10 +1,9 @@
 {
-  "group": "new_ores",
   "type": "minecraft:smelting",
   "experience": 4.199999999999999,
   "cookingtime": 200,
   "ingredient": {
-    "item": "new_ores:mega_enriched_diamond_ore"
+    "item": "new_ores:deleted_mod_element"
   },
   "result": {
     "item": "new_ores:mega_enriched_diamond"

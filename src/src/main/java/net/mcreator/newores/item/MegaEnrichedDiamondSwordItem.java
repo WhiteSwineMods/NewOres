@@ -16,6 +16,7 @@ import net.mcreator.newores.NewOresModElements;
 public class MegaEnrichedDiamondSwordItem extends NewOresModElements.ModElement {
 	@ObjectHolder("new_ores:mega_enriched_diamond_sword")
 	public static final Item block = null;
+
 	public MegaEnrichedDiamondSwordItem(NewOresModElements instance) {
 		super(instance, 30);
 	}
@@ -44,7 +45,7 @@ public class MegaEnrichedDiamondSwordItem extends NewOresModElements.ModElement 
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(MegaEnrichedDiamondItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(MegaEnrichedDiamondItem.block));
 			}
 		}, 3, -3f, new Item.Properties().group(NewOresItemGroup.tab)) {
 		}.setRegistryName("mega_enriched_diamond_sword"));

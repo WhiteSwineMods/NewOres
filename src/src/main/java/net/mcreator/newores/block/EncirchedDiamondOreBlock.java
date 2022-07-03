@@ -19,6 +19,7 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.World;
 import net.minecraft.world.ISeedReader;
+import net.minecraft.world.IBlockReader;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
@@ -46,6 +47,7 @@ import java.util.Collections;
 public class EncirchedDiamondOreBlock extends NewOresModElements.ModElement {
 	@ObjectHolder("new_ores:encirched_diamond_ore")
 	public static final Block block = null;
+
 	public EncirchedDiamondOreBlock(NewOresModElements instance) {
 		super(instance, 2);
 		MinecraftForge.EVENT_BUS.register(this);
@@ -57,6 +59,7 @@ public class EncirchedDiamondOreBlock extends NewOresModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(NewOresItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(15f, 18.11949159194239f).setLightLevel(s -> 0)
@@ -65,22 +68,30 @@ public class EncirchedDiamondOreBlock extends NewOresModElements.ModElement {
 		}
 
 		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
+		}
+
+		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(EncirchedDiamondItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(EncirchedDiamondItem.block));
 		}
 	}
+
 	private static Feature<OreFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	private static IRuleTestType<CustomRuleTest> CUSTOM_MATCH = null;
+
 	private static class CustomRuleTest extends RuleTest {
 		static final CustomRuleTest INSTANCE = new CustomRuleTest();
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.DIAMOND_ORE.getDefaultState().getBlock())
+			if (blockAt.getBlock() == Blocks.DIAMOND_ORE)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -113,6 +124,7 @@ public class EncirchedDiamondOreBlock extends NewOresModElements.ModElement {
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("new_ores:encirched_diamond_ore"), configuredFeature);
 		}
 	}
+
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);

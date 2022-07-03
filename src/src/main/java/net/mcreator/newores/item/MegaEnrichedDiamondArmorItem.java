@@ -28,6 +28,7 @@ public class MegaEnrichedDiamondArmorItem extends NewOresModElements.ModElement 
 	public static final Item legs = null;
 	@ObjectHolder("new_ores:mega_enriched_diamond_armor_boots")
 	public static final Item boots = null;
+
 	public MegaEnrichedDiamondArmorItem(NewOresModElements instance) {
 		super(instance, 38);
 	}
@@ -57,7 +58,7 @@ public class MegaEnrichedDiamondArmorItem extends NewOresModElements.ModElement 
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(MegaEnrichedDiamondItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(MegaEnrichedDiamondItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -101,4 +102,5 @@ public class MegaEnrichedDiamondArmorItem extends NewOresModElements.ModElement 
 			}
 		}.setRegistryName("mega_enriched_diamond_armor_boots"));
 	}
+
 }

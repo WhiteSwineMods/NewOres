@@ -16,6 +16,7 @@ import net.mcreator.newores.NewOresModElements;
 public class EncirchedDiamondHoeItem extends NewOresModElements.ModElement {
 	@ObjectHolder("new_ores:encirched_diamond_hoe")
 	public static final Item block = null;
+
 	public EncirchedDiamondHoeItem(NewOresModElements instance) {
 		super(instance, 11);
 	}
@@ -44,7 +45,7 @@ public class EncirchedDiamondHoeItem extends NewOresModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(EncirchedDiamondItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(EncirchedDiamondItem.block));
 			}
 		}, 0, -3f, new Item.Properties().group(NewOresItemGroup.tab)) {
 		}.setRegistryName("encirched_diamond_hoe"));

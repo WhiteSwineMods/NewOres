@@ -44,6 +44,7 @@ public class NewOresModElements {
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
+
 	public NewOresModElements() {
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("new_ores").getFile().getScanResult();
@@ -66,7 +67,9 @@ public class NewOresModElements {
 		for (Map.Entry<ResourceLocation, net.minecraft.util.SoundEvent> sound : sounds.entrySet())
 			event.getRegistry().register(sound.getValue().setRegistryName(sound.getKey()));
 	}
+
 	private int messageID = 0;
+
 	public <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, PacketBuffer> encoder, Function<PacketBuffer, T> decoder,
 			BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
 		NewOresMod.PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
@@ -92,12 +95,15 @@ public class NewOresModElements {
 	public List<Supplier<Enchantment>> getEnchantments() {
 		return enchantments;
 	}
+
 	public static class ModElement implements Comparable<ModElement> {
 		@Retention(RetentionPolicy.RUNTIME)
 		public @interface Tag {
 		}
+
 		protected final NewOresModElements elements;
 		protected final int sortid;
+
 		public ModElement(NewOresModElements elements, int sortid) {
 			this.elements = elements;
 			this.sortid = sortid;

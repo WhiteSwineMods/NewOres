@@ -3,6 +3,7 @@ package net.mcreator.newores.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -15,6 +16,7 @@ import net.mcreator.newores.NewOresModElements;
 public class MegaEnrichedDiamondItem extends NewOresModElements.ModElement {
 	@ObjectHolder("new_ores:mega_enriched_diamond")
 	public static final Item block = null;
+
 	public MegaEnrichedDiamondItem(NewOresModElements instance) {
 		super(instance, 22);
 	}
@@ -23,10 +25,16 @@ public class MegaEnrichedDiamondItem extends NewOresModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(NewOresItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("mega_enriched_diamond");
+		}
+
+		@Override
+		public UseAction getUseAction(ItemStack itemstack) {
+			return UseAction.EAT;
 		}
 
 		@Override

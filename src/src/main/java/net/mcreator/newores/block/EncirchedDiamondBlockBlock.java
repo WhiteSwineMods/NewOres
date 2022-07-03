@@ -4,6 +4,8 @@ package net.mcreator.newores.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -23,6 +25,7 @@ import java.util.Collections;
 public class EncirchedDiamondBlockBlock extends NewOresModElements.ModElement {
 	@ObjectHolder("new_ores:encirched_diamond_block")
 	public static final Block block = null;
+
 	public EncirchedDiamondBlockBlock(NewOresModElements instance) {
 		super(instance, 3);
 	}
@@ -32,11 +35,17 @@ public class EncirchedDiamondBlockBlock extends NewOresModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(NewOresItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).setLightLevel(s -> 0).harvestLevel(10)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("encirched_diamond_block");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

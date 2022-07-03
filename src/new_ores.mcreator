@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "EncirchedDiamond",
@@ -7,7 +6,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond",
       "path": "~/EnrichedDiamonds"
     },
@@ -17,7 +15,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_ore",
       "path": "~/EnrichedDiamonds"
     },
@@ -27,7 +24,6 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_block",
       "path": "~/EnrichedDiamonds"
     },
@@ -37,7 +33,6 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_ore_block_recipe",
       "path": "~/EnrichedDiamonds"
     },
@@ -47,7 +42,6 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_block_ore_recipe",
       "path": "~/EnrichedDiamonds"
     },
@@ -57,7 +51,6 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_ore_smelting",
       "path": "~/EnrichedDiamonds"
     },
@@ -67,7 +60,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_pickaxe",
       "path": "~/EnrichedDiamonds"
     },
@@ -77,7 +69,6 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_axe",
       "path": "~/EnrichedDiamonds"
     },
@@ -87,7 +78,6 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_sword",
       "path": "~/EnrichedDiamonds"
     },
@@ -97,7 +87,6 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_shovel",
       "path": "~/EnrichedDiamonds"
     },
@@ -107,7 +96,6 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_hoe",
       "path": "~/EnrichedDiamonds"
     },
@@ -117,7 +105,6 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_pickaxe_recipe",
       "path": "~/EnrichedDiamonds"
     },
@@ -127,7 +114,6 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_axe_recipe",
       "path": "~/EnrichedDiamonds"
     },
@@ -137,7 +123,6 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_sword_recipe",
       "path": "~/EnrichedDiamonds"
     },
@@ -147,7 +132,6 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_shovel_recipe",
       "path": "~/EnrichedDiamonds"
     },
@@ -157,7 +141,6 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_hoe_recipe",
       "path": "~/EnrichedDiamonds"
     },
@@ -167,7 +150,6 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_armor",
       "metadata": {
         "eh": true,
@@ -183,7 +165,6 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_armor_helmet_recipe",
       "path": "~/EnrichedDiamonds"
     },
@@ -193,7 +174,6 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_armor_body_recipe",
       "path": "~/EnrichedDiamonds"
     },
@@ -203,7 +183,6 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_armor_leggings_recipe",
       "path": "~/EnrichedDiamonds"
     },
@@ -213,7 +192,6 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "encirched_diamond_armor_boots_recipe",
       "path": "~/EnrichedDiamonds"
     },
@@ -223,7 +201,6 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -233,7 +210,6 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_block",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -243,7 +219,6 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_ore_block_recipe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -253,7 +228,6 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_block_ore_recipe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -263,7 +237,6 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_ore_smelting",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -273,7 +246,6 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_pickaxe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -283,7 +255,6 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_axe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -293,7 +264,6 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_sword",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -303,7 +273,6 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_shovel",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -313,7 +282,6 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_hoe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -323,7 +291,6 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_pickaxe_recipe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -333,7 +300,6 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_axe_recipe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -343,7 +309,6 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_sword_recipe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -353,7 +318,6 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_shovel_recipe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -363,7 +327,6 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_hoe_recipe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -373,7 +336,6 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_armor",
       "metadata": {
         "eh": true,
@@ -389,7 +351,6 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_armor_helmet_recipe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -399,7 +360,6 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_armor_body_recipe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -409,7 +369,6 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_armor_leggings_recipe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -419,7 +378,6 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamond_armor_boots_recipe",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -429,7 +387,6 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mega_enriched_diamonds",
       "path": "~/MegaEnrichedDiamonds"
     },
@@ -439,7 +396,6 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "new_ores"
     }
   ],
@@ -503,5 +459,5 @@
     "modElementsPackage": "net.mcreator.newores",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100118117
+  "mcreatorVersion": 202200120510
 }

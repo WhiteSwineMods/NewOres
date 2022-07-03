@@ -22,7 +22,7 @@ public class NewOresItemGroup extends NewOresModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(EncirchedDiamondItem.block, (int) (1));
+				return new ItemStack(EncirchedDiamondItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -31,5 +31,6 @@ public class NewOresItemGroup extends NewOresModElements.ModElement {
 			}
 		};
 	}
+
 	public static ItemGroup tab;
 }

@@ -16,6 +16,7 @@ import net.mcreator.newores.NewOresModElements;
 public class MegaEnrichedDiamondShovelItem extends NewOresModElements.ModElement {
 	@ObjectHolder("new_ores:mega_enriched_diamond_shovel")
 	public static final Item block = null;
+
 	public MegaEnrichedDiamondShovelItem(NewOresModElements instance) {
 		super(instance, 31);
 	}
@@ -44,7 +45,7 @@ public class MegaEnrichedDiamondShovelItem extends NewOresModElements.ModElement
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(MegaEnrichedDiamondItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(MegaEnrichedDiamondItem.block));
 			}
 		}, 1, -3f, new Item.Properties().group(NewOresItemGroup.tab)) {
 		}.setRegistryName("mega_enriched_diamond_shovel"));
